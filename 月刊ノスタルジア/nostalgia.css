@@ -1,0 +1,64 @@
+a{
+  text-decoration: none;
+}
+
+
+/* header */
+header {
+  height: 160px;
+  width: 100%;
+  background-color:white;
+  opacity: 0.8;
+  position :fixed;
+  top: 0;
+  z-index: 10;
+  display: inline-block;
+  font-size: 14px;
+}
+.header-left img{
+  height: 160px;
+  float: left;
+  margin-left: 50px;
+}
+.header-right {
+  float: right;
+  height: 160px;
+}
+.header-right a{
+  line-height: 160px;
+  width: 100px;
+  text-align: center;
+  padding: 0 25px;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+  color: black;
+}
+.header-right a:hover {
+  background-color: rgba(192, 186, 186, 0.3);
+}
+.fab{
+  margin-right: 4px;
+}
+
+.top-wrapper{
+  margin-top: 160px;
+  text-align: center;
+  padding:80px 0px;
+  background-image: url("/Users/satouyuuki/Desktop/月刊ノスタルジア/1500x500.jpg");
+  background-size: cover;
+  background-color:rgba(255,255,255,0.7);
+  background-blend-mode:lighten;
+}
+
+.top-wrapper h1{
+  color: rgb(49, 47, 47);
+}
+.top-wrapper h2{
+  color: rgb(49, 47, 47);
+}
+
+.timeline{
+  text-align: center;
+  margin: 70px 0;
+}
